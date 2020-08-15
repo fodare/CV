@@ -144,5 +144,6 @@ td
 
 .skills-table
       {
-          padding-left: 550px;
+        margin-left: auto;
+        margin-right: auto;
       }
