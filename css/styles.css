@@ -60,7 +60,6 @@ hr
 table
     {
         text-align: left;
-        padding-left: 30%;
     }
 
 td
@@ -141,4 +140,9 @@ td
           color: #EAF6F6;
           font-size: 0.75rem;
           padding: 20px 0;
+      }
+
+.skills-table
+      {
+          padding-left: 550px;
       }
