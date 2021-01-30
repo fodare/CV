@@ -124,10 +124,74 @@ li a {
    padding-right: 30px;
 }
 
+/* Portfolio area */
+.port-pic {
+   width: auto;
+   height: 750px;
+   margin-top: 40px;
+}
+.portfolio-pic {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   z-index: -1;
+}
+
+.portfolio-message {
+   background-color: #f4f5f7;
+   position: relative;
+   z-index: 2;
+   bottom: 300px;
+   padding: 50px 70px 40px 0;
+   width: fit-content;
+   color: #4c4b53;
+   opacity: 0.9;
+}
+
+.port-hd {
+   font-size: 7rem;
+}
+.port-mg {
+   font-size: 2rem;
+}
+
+/* Contact Me Page */
+.contact-message {
+   background-color: #f4f5f7;
+   position: relative;
+   z-index: 2;
+   bottom: 350px;
+   padding: 50px 70px 40px 0;
+   width: fit-content;
+   color: #4c4b53;
+   opacity: 0.9;
+}
+
+.contact-message h1 {
+   padding-bottom: 15px;
+   color: #5b5a62;
+}
+.contact-message p {
+   line-height: 1.5;
+   padding-top: 15px;
+}
+
 /* Media Query area */
 
 @media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 3) {
    .footer-list .footer-links {
       display: block;
+   }
+   .portfolio-message {
+      text-align: center;
+      padding: 10px 20px 10px 0;
+   }
+
+   .port-hd {
+      font-size: 2rem;
+   }
+
+   .port-mg {
+      font-size: 1rem;
    }
 }
