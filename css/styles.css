@@ -131,7 +131,7 @@ li a {
    margin-top: 40px;
 }
 .portfolio-pic {
-   width: 100%;
+   width: auto;
    height: 100%;
    position: relative;
    z-index: -1;
