@@ -88,6 +88,7 @@ hr {
 .callto-action {
    text-align: center;
    justify-content: center;
+   margin-top: 60px;
    margin-bottom: 50px;
 }
 
@@ -131,10 +132,11 @@ li a {
    margin-top: 40px;
 }
 .portfolio-pic {
-   width: auto;
+   width: 100%;
    height: 100%;
    position: relative;
    z-index: -1;
+   margin-bottom: 20px;
 }
 
 .portfolio-message {
@@ -153,6 +155,9 @@ li a {
 }
 .port-mg {
    font-size: 2rem;
+}
+.port-call {
+   margin-top: 50px;
 }
 
 /* Contact Me Page */
