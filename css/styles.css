@@ -1,106 +1,133 @@
-/* Body element */
 body {
-	text-align: center;
+   box-sizing: border-box;
+   margin: 0;
+   margin-bottom: 0;
 }
-/* Hr divider */
+.main-body {
+   margin-bottom: 0;
+}
+/* Navigation Bar Styles */
+.Top-bar {
+   padding-top: 40px !important;
+}
+.h5 {
+   font-size: 2rem;
+}
+.p-2 {
+   font-size: 1.2rem;
+   text-decoration: none;
+   padding-right: 20px !important;
+}
+.p-2:hover {
+   color: #8ebfb4 !important;
+   border-bottom: solid #8ebfb4 1px;
+}
+.main-tb {
+   color: #8ebfb4 !important;
+}
+
+/* Introduction Area */
+.introduction {
+   width: auto;
+   height: 650px;
+   margin-top: 40px;
+}
+.intro-img {
+   width: 100%;
+   height: 100%;
+   position: relative;
+   z-index: -1;
+}
+.intro-msg {
+   bottom: 234px;
+   background-color: white;
+   position: relative;
+   z-index: 2;
+   width: fit-content;
+   padding: 50px 70px 30px 0;
+}
+.intro-msg h1 {
+   font-size: 3.5rem;
+   font-weight: bold;
+   color: #36343e;
+}
+.intro-msg h1 i {
+   padding-right: 10px !important;
+}
+.my-img {
+   width: auto;
+}
+
+/* About Me area */
+.about-me {
+   margin-top: 120px;
+   margin-bottom: 120px;
+}
 hr {
-	border-top: dotted #eaf6f6 6px;
-	border-bottom: 0;
-	width: 50%;
+   width: 40%;
+   margin-left: 30%;
+   margin-right: 30%;
 }
-/* Navigation Bar */
-.navbar {
-	padding: 0 0 4.5rem;
+.me-msg {
+   color: #4c4b53;
 }
-.navbar-nav {
-	padding-top: 30px;
-	margin-right: 10%;
+.me-msg h1 {
+   font-size: 3rem;
+   padding-bottom: 30px;
 }
-.nav-item {
-	padding: 0 10px;
+.me-msg p {
+   line-height: 2;
+   font-size: 14px;
 }
-.nav-link {
-	font-size: 1.5rem;
-	font-family: "Montserrat-light";
-}
-
-/* Landing Section */
-#landing-Section {
-	background-color: #e4f9f5;
-	line-height: 1.5;
-	margin-bottom: 10px;
-}
-.landing-message {
-	color: #66bfbf;
-	font-family: "Sacramento", cursive;
-	text-align: left;
-	padding-left: 70px;
-}
-.landing-message h1 {
-	font-size: 5.625rem;
-	font-weight: bold;
-}
-.landing-message h3 {
-	font-family: "Montserrat", sans-serif;
-	font-size: 2.625rem;
-	font: bold;
-}
-.landing-img {
-	width: 50%;
-	margin-bottom: 10px;
-	padding-left: 70px;
+.portfolio {
+   margin-top: 20px;
+   margin-bottom: 30px;
 }
 
-/* About Area */
-.About-message {
-	text-align: center;
-	margin-right: auto;
-	margin-left: auto;
-	width: 50%;
-	font-size: 1.5rem;
-}
-.web-dev-about {
-	width: 200px;
-}
-.skills {
-	text-align: left;
-	margin-right: auto;
-	margin-left: auto;
-	margin-top: 50px;
-}
-td {
-	border: 2px solid transparent;
+/* Call to action area */
+.callto-action {
+   text-align: center;
+   justify-content: center;
+   margin-bottom: 50px;
 }
 
-/* Contact area */
-#Contact {
-	background-color: #fff;
-	line-height: 2;
+/* Footer Area */
+.footer-area {
+   background-color: #36343e;
+   padding-top: 30px;
+   padding-bottom: 40px;
 }
-.Contact-message {
-	color: #66bfbf;
-	font-family: "Montserrat", sans-serif;
-	font-size: 2.5rem;
-	font-weight: bold;
+.footer-content {
+   text-align: center;
 }
-.contact-lower {
-	font-size: 1.5rem;
+.footer-list .my-name {
+   font-size: 2rem;
 }
-.contact-button {
-	color: #11cdd4;
-	margin-bottom: 10px;
+ul {
+   list-style-type: none;
+   margin-bottom: 0;
+}
+ul li {
+   display: inline;
+   padding-right: 20px;
+   font-size: 1rem;
+}
+li a {
+   color: white;
+   text-decoration: none;
+}
+.socials {
+   float: right;
+}
+.socials a {
+   color: white;
+   padding-right: 30px;
 }
 
-/* Footer area */
-#Footer {
-	background-color: #66bfbf;
-	padding: 50px;
-}
-.footer-icon {
-	padding: 7px 10px;
-}
-@media (max-width: 1000px) {
-	.About-message {
-		width: 80;
-	}
+/* Media Query area */
+
+@media only screen and (max-device-width: 600px) and (-webkit-min-device-pixel-ratio: 3) {
+   .footer-list .footer-links {
+      display: block;
+   }
 }
