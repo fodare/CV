@@ -124,6 +124,10 @@ li a {
    color: white;
    padding-right: 30px;
 }
+li a:hover {
+   color: #8ebfb4;
+   border-bottom: #8ebfb4 solid 1px;
+}
 
 /* Portfolio area */
 .port-pic {
